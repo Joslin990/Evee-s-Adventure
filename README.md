@@ -8,7 +8,7 @@ A young Evee has wandered far from home. Guide it through dark caves, sunny mead
 
 ## How to Play
 
-Just open [main.html](main.html) in any modern web browser — no build step, server, or dependencies required.
+Just open [index.html](index.html) in any modern web browser — no build step, server, or dependencies required.
 
 1. Press **Start** on the title screen.
 2. Read each story passage.
@@ -19,7 +19,7 @@ Just open [main.html](main.html) in any modern web browser — no build step, se
 
 | File | Purpose |
 |---|---|
-| [main.html](main.html) | Page structure and Game Boy-style UI shell |
+| [index.html](index.html) | Page structure and Game Boy-style UI shell |
 | [style.css](style.css) | Retro Game Boy visual styling (pixel font, red cartridge frame, Poké Ball accents) |
 | [script.js](script.js) | Game engine and branching story data (`storyData`) |
 
