@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evee's Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-boy">
+        <div id="game-header">
+            <span class="pokeball" aria-hidden="true"></span>
+            <h1 id="game-title">Evee's Adventure</h1>
+            <span class="pokeball" aria-hidden="true"></span>
+        </div>
+        <div id="game-container">
+            <div id="start-screen">
+                <p id="start-text">A young Evee has wandered far from home. Can you help find the way back to family?</p>
+                <button id="start-button" class="choice-button">Press Start</button>
+            </div>
+            <div id="story-text" hidden></div>
+            <div id="choice-container" hidden></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
