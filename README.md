@@ -15,6 +15,10 @@ Just open [index.html](index.html) in any modern web browser — no build step, 
 3. Choose from the available options to continue the adventure.
 4. Reach one of the story's endings, then press **Start** again to play through a different path.
 
+## Install as an App
+
+Evee's Adventure is an installable Progressive Web App. When visiting the site in Chrome, Edge, or another PWA-capable browser, use the install icon in the address bar (or "Add to Home Screen" on mobile) to add it as a standalone app with offline support.
+
 ## Project Structure
 
 | File | Purpose |
@@ -22,6 +26,9 @@ Just open [index.html](index.html) in any modern web browser — no build step, 
 | [index.html](index.html) | Page structure and Game Boy-style UI shell |
 | [style.css](style.css) | Retro Game Boy visual styling (pixel font, red cartridge frame, Poké Ball accents) |
 | [script.js](script.js) | Game engine and branching story data (`storyData`) |
+| [manifest.json](manifest.json) | Web app manifest enabling "Install as App" |
+| [sw.js](sw.js) | Service worker that caches the app shell for offline play |
+| [icons/](icons) | App icons used for installation and favicons |
 
 ## Adding to the Story
 
